@@ -1,7 +1,7 @@
 #!/bin/bash
 
-ip=''
-gateway=''
+ip='10.12.10.1'
+gateway='10.12.10.254'
 
 sudo apt -o Acquire::Check-Valid-Until=false update -y && sudo apt upgrade -y
 sudo apt install vim ccze ansible zip unzip -y
